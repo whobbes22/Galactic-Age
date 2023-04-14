@@ -19,4 +19,10 @@ describe('Calculator', () =>{
     expect(ageCalc.calculations).toEqual({earth: 5,mercury:20.83,venus: 8.06,mars: 2.66,jupiter:0.42}); 
   })
 
+  test("calculate mayfly years",() => {
+    const ageCalc = new AgeCalculator("joe",56);
+    ageCalc.CalculateMayFlyAge();
+    expect(ageCalc.mayFlyAge).toEqual(5886720);
+  })
+
 });
