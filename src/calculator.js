@@ -17,4 +17,7 @@ export default class AgeCalculator{
   futureYears(years){
     this.yearsPassed(this.age -(years-this.age));
   }
+  CalculateMayFlyAge(){
+    this.calculations.mayFlyAge = 60 / 5 * 24  * 365 * this.age;
+  }
 }
