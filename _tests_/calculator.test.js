@@ -10,7 +10,7 @@ describe('Calculator', () =>{
   test("calculate years passing based on inputted earth years", () => {
     const ageCalc = new AgeCalculator("joe",56);
     ageCalc.yearsPassed(43);
-    expect(ageCalc.calculations).toEqual({earth: 13,mercury:54.17,venus: 20.97,mars: 6.91,jupiter:1.1}); 
+    expect(ageCalc.calculations).toEqual({earth: 13,mercury:54.17,venus: 20.97,mars: 6.91,jupiter:1.1,pluto:.05}); 
   })
 
   test("calculate years yet to have been passed", () => {
