@@ -33,5 +33,6 @@ export default class AgeCalculator{
     this.calculations.venus = Math.round(years / .62 * 100 / 7) / 100;
     this.calculations.mars = Math.round(years / 1.88 * 100 / 7) / 100;
     this.calculations.jupiter = Math.round(years / 11.86 * 100 / 7) / 100;
+    this.calculations.pluto = Math.round(years / 248 * 100 / 7) / 100;
   }
 }
