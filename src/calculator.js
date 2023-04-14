@@ -13,4 +13,8 @@ export default class AgeCalculator{
     this.calculations.mars = Math.round(earthYears / 1.88 * 100) / 100;
     this.calculations.jupiter = Math.round(earthYears / 11.86 * 100) / 100;
   }
+
+  futureYears(years){
+    this.yearsPassed(this.age -(years-this.age));
+  }
 }
