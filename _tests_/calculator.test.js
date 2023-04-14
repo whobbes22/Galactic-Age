@@ -16,7 +16,7 @@ describe('Calculator', () =>{
   test("calculate years yet to have been passed", () => {
     const ageCalc = new AgeCalculator("joe",56);
     ageCalc.futureYears(61);
-    expect(ageCalc.calculations).toEqual({earth: 5,mercury:20.83,venus: 8.06,mars: 2.66,jupiter:0.42}); 
+    expect(ageCalc.calculations).toEqual({earth: 5,mercury:20.83,venus: 8.06,mars: 2.66,jupiter:0.42,pluto: .02}); 
   })
 
   test("calculate mayfly years",() => {
