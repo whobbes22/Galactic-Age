@@ -34,7 +34,7 @@ describe('Calculator', () =>{
   test("planets in dog years choose an age and will convert to dog years in each planet",() => {
     const ageCalc = new AgeCalculator("joe",56);
     ageCalc.calculateDogYears(100);
-    expect(ageCalc.calculations).toEqual({earth: 14.23,mercury:59.52,venus: 23.04,mars: 7.60,jupiter:1.20})
+    expect(ageCalc.calculations).toEqual({earth: 14.29,mercury:59.52,venus: 23.04,mars: 7.60,jupiter:1.20})
 
   })
 
