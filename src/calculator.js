@@ -17,7 +17,12 @@ export default class AgeCalculator{
   futureYears(years){
     this.yearsPassed(this.age -(years-this.age));
   }
-  CalculateMayFlyAge(){
+  calculateMayFlyAge(){
     this.calculations.mayFlyAge = 60 / 5 * 24  * 365 * this.age;
   }
+
+  calculateRatioOfMayFlyAgeToSun(){
+    this.calculateMayFlyAge();
+    this.calculations.mayFlyAgeRatioToSun =  Math.round(4603000000 / this.calculations.mayFlyAge);
+    }
 }
