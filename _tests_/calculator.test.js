@@ -22,7 +22,7 @@ describe('Calculator', () =>{
   test("calculate mayfly years",() => {
     const ageCalc = new AgeCalculator("joe",56);
     ageCalc.CalculateMayFlyAge();
-    expect(ageCalc.calculations.mayFlyAge).toEqual(5886720);
+    expect(ageCalc.calculations.mayFlyAge,ageCalc.calculations.mayFlyAgeRatioToSun).toEqual(5886720,782);
   })
 
 });
