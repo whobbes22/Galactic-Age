@@ -25,7 +25,7 @@ describe('Calculator', () =>{
     expect(ageCalc.calculations.mayFlyAge).toEqual(5886720);
   })
 
-  test("compare may fly age to the suns age", (){
+  test("compare may fly age to the suns age", () => {
     const ageCalc = new AgeCalculator("joe",56);
     ageCalc.calculateRatioOfMayFlyAgeToSun();
     expect(ageCalc.calculations.mayFlyAgeRatioToSun).toEqual(782);
