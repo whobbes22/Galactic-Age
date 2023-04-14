@@ -1,4 +1,4 @@
-import Calculator from "../src/calculator.js";
+import AgeCalculator from "../src/calculator.js";
 
 describe('Calculator', () =>{
 
